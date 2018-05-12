@@ -1,0 +1,46 @@
+_repo: Tales-of-the-Sunor-Folklore-of-Southern-India_37002
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  authors:
+  - agent_name: Cleeve, Lucas
+    aliases:
+    - Kingscote, Adelina Georgina Isabella
+    - Kingscote, Georgiana
+    - Kingscote, Mrs. Howard
+    deathdate: 1908
+    gutenberg_agent_id: '38584'
+    url: http://www.gutenberg.org/2009/agents/38584
+  - agent_name: Sastri, Pandit Natesa
+    gutenberg_agent_id: '38585'
+    url: http://www.gutenberg.org/2009/agents/38585
+description: ''
+gutenberg_issued: '2011-08-07'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '37002'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Tales -- India'
+- !lcsh 'Legends -- India'
+- !lcc 'GR'
+tableOfContents: The three deaf men -- Why Brâhmaṇs cannot eat in the dark -- The
+  soothsayer's son -- Raṇavîrasiṅg -- Charity alone conquers -- Mr. Won't Give and
+  Mr. Won't Leave -- Mr. Mighty-of-his-Mouth -- The mother-in-law became an ass --
+  The story of Appayya -- The Brâhmiṇ girl that married a tiger -- The good husband
+  and the bad wife -- The good wife and the bad husband -- The lost camel -- The three
+  calamaties -- The honest by rash hunter -- The Brâhmaṇ's wife and the mungoose --
+  The faithless wife and the ungrateful blind man -- The wonderful mango fruit --
+  The poisoned food -- Eating up the protector -- The monkey with the tom-tom -- Pride
+  goeth before a fall -- Good will grow out of good -- Light makes prosperity -- Chandralêkhâ
+  and the eight robbers -- The conquest of fate -- The Brâhmaṇ priest who became an
+  Amildâr -- The gardener's cunning wife -- Keep it for the beggar -- Good luck to
+  the lucky one -- Retaliation -- The beggar and the five muffins -- The Brahmarâkshas
+  and the hair.
+title: Tales of the Sun; or, Folklore of Southern India
+url: http://www.gutenberg.org/ebooks/37002
