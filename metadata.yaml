@@ -17,6 +17,8 @@ creator:
     gutenberg_agent_id: '38585'
     url: http://www.gutenberg.org/2009/agents/38585
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/37002#Tales-of-the-Sunor-Folklore-of-Southern-India
 gutenberg_issued: '2011-08-07'
 gutenberg_type: Text
 identifiers:
