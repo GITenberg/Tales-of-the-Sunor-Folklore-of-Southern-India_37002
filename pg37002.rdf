@@ -1,119 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/37002">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-08-07</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200652</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc2f9467f8d7741a885951e9af8c6bbf9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:32:12.243865</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc6d9aab285f9413886f10d60e0c182bf">
+        <rdf:value>Legends -- India</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/38585">
+        <pgterms:name>Sastri, Pandit Natesa</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182716</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:12</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N29fb9f8739b545cb8289e441c273aa52">
+          <rdf:Description rdf:nodeID="N88db9aeaaa674c0aa24e7825af0b0a34">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na10cccaa96d9421eb233ebdf0f2fed12">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182716</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne45945245b3449118c0e21ff5e713048">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:12</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Tales of the Sun
-or Folklore of Southern India</dcterms:title>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.epub.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-08T12:26:04.403624</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212784</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:32:11.357877</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nebf0e7bdafa84a1fb2d22c7de83416e2">
+          <rdf:Description rdf:nodeID="N892b89b95e0345c783ab7e0e74dd3d05">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/38584">
-        <pgterms:name>Kingscote, Mrs. Howard</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256710</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nda176bd5dc4448e790f8098ba1298796">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-08T12:26:07.244090</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200653</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212784</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-08T12:26:03.177404</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002-8.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N99083be6c7484e1dbf27a8c8fe615d60">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          <rdf:Description rdf:nodeID="N1cbdfc762d634f66ad03aabce20958de">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002-8.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">419871</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155913</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:12</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8963aef39c68488d9cdf65fc884aea08">
+          <rdf:Description rdf:nodeID="Nf2d39df2a85842328e49d0167f3799b2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:10</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-08-07</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002-h/37002-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">561155</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7b427f7bb8724f4fa35d5f04857fccf9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:10</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Na2e1fb8fd02249e1bca307149c20f051">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217869</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-08T12:26:01.575304</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N199d33a32b9a4d77b9b8e754d5eb6ac2">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -122,30 +88,74 @@ or Folklore of Southern India</dcterms:title>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6d7a75894ac3468b9d973f2519e29282">
+          <rdf:Description rdf:nodeID="N9771e4346f68499db64d6904588feaf7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">523716</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-08T12:26:13.343622</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:32:14.677824</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850381</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.txt.utf-8">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1da7645dbfc24d2bb80e66ee4fe4c3b3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:32:10.122915</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">421167</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:32:17.316776</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N52cde4e841844ac4bcada42ad2bce95d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14451</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf8677266b2f447258d6cb0a15c1d8e59">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:title>Tales of the Sun; or, Folklore of Southern India</dcterms:title>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Ne845c166e49e44bbbac626479eafc2f6">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2b67fd0a65444e0e8dd071b9e9e57f35">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>GR</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155488</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf4782d3589c148358aab41011b5287a8">
+          <rdf:Description rdf:nodeID="Nad06b019e5ab4263bf2b1da87e92225e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155488</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7fedb27a4f26460e9b1cc3279eaf37a4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="Nc7a15ef092574984a2dad77fd24672ee">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:12</dcterms:modified>
@@ -154,76 +164,78 @@ or Folklore of Southern India</dcterms:title>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002.txt">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">419864</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:10</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N464eb8b94f83402993d06f95a2e2e75d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N6f354d1332f94e769d4d310a27086531">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002-8.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd334168e4188463c95130839f52a3ee0">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:12</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155913</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne78df0e958094568820b26b699e825a8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</pgterms:downloads>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-08T12:26:10.332331</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">523716</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850372</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne3d110e6783245f3bf2c2c1917a3076a">
+          <rdf:Description rdf:nodeID="Nee819266ea1142b194bd9fabd9ba370f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T03:32:17.133789</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002-h/37002-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:10</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">561155</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1e05e628e6014618b7b88b36c60c1559">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/38585">
-        <pgterms:name>Sastri, Pandit Natesa</pgterms:name>
+      <pgterms:agent rdf:about="2009/agents/38584">
+        <pgterms:alias>Kingscote, Georgiana</pgterms:alias>
+        <pgterms:name>Cleeve, Lucas</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1908</pgterms:deathdate>
+        <pgterms:alias>Kingscote, Mrs. Howard</pgterms:alias>
+        <pgterms:alias>Kingscote, Adelina Georgina Isabella</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N5005a215b31d42f2b059edf65febb547">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N46f664a69c364b01b9b52ebc99a913db">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Tales -- India</rdf:value>
       </rdf:Description>
-    </dcterms:type>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37002.txt.utf-8">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37002/37002-8.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">419871</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T14:48:10</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5df25e238e914f968b54beb00f727a82">
+          <rdf:Description rdf:nodeID="N18a003ace19f4b9bbf79fd4599721a75">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">421167</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37002"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-08T12:26:00.932776</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:tableOfContents>The three deaf men -- Why Brâhmaṇs cannot eat in the dark -- The soothsayer's son -- Raṇavîrasiṅg -- Charity alone conquers -- Mr. Won't Give and Mr. Won't Leave -- Mr. Mighty-of-his-Mouth -- The mother-in-law became an ass -- The story of Appayya -- The Brâhmiṇ girl that married a tiger -- The good husband and the bad wife -- The good wife and the bad husband -- The lost camel -- The three calamaties -- The honest by rash hunter -- The Brâhmaṇ's wife and the mungoose -- The faithless wife and the ungrateful blind man -- The wonderful mango fruit -- The poisoned food -- Eating up the protector -- The monkey with the tom-tom -- Pride goeth before a fall -- Good will grow out of good -- Light makes prosperity -- Chandralêkhâ and the eight robbers -- The conquest of fate -- The Brâhmaṇ priest who became an Amildâr -- The gardener's cunning wife -- Keep it for the beggar -- Good luck to the lucky one -- Retaliation -- The beggar and the five muffins -- The Brahmarâkshas and the hair.</dcterms:tableOfContents>
+    <dcterms:license rdf:resource="license"/>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
